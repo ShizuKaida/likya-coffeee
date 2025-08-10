@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import  qrCode  from "../assets/MenuQR.png";
 
 export default function Menu() {
   const reviews = [
@@ -92,11 +93,12 @@ export default function Menu() {
                 buraya tıklayın
               </a>
             </p>
-            <div className="bg-white p-6 rounded-xl mx-auto w-48 h-48 flex items-center justify-center mb-6">
-              <div className="text-center">
-                <i className="fas fa-qrcode text-6xl text-likya-dark mb-2"></i>
-                <p className="text-sm text-likya-dark">Menu QR Code</p>
-              </div>
+            <div className="bg-white p-4 rounded-xl mx-auto w-48 h-48 flex items-center justify-center mb-6">
+              <img
+                src={qrCode}
+                alt="Likya Coffee QR Menü"
+                className="w-full h-full object-contain"
+              />
             </div>
           </motion.div>
 
