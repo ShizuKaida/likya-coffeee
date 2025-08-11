@@ -15,11 +15,13 @@
     <link rel="canonical" href="https://likyacoffee.com/" />
 
     <!-- Primary SEO -->
-    <title>Likya Coffee</title>
-    <meta
-      name="description"
-      content="Likya Coffee — taze çekirdek kahveler, imza tatlar ve samimi bir ortam. Menümüzü keşfedin, QR menüye göz atın ve bize uğrayın."
-    />
+    <title>Likya Coffee | Kozyatağı'ında Özel Kahve & Tatlılar</title>
+    <meta 
+      name="description" 
+      content="Likya Coffee – Kozyatağı, Kadıköy. Taze 
+      çekirdek kahveler, Türk kahvesi ve ev yapımı tatlılar. 
+      QR menüye göz atın, bizi ziyaret edin."
+     />
     <meta
       name="keywords"
       content="Likya Coffee, Likya, Likya kafe, kafe,kahveci,likya coffee kahve, üçüncü nesil kahve, espresso, latte, cappuccino, soğuk kahve, Türk kahvesi, kafe"
@@ -69,18 +71,39 @@
       {
         "@context": "https://schema.org",
         "@type": "CafeOrCoffeeShop",
+        "@id": "https://likyacoffee.com/#coffee-shop",
         "name": "Likya Coffee",
         "url": "https://likyacoffee.com/",
         "logo": "https://likyacoffee.com/Likya-Turuncu-Logo.png",
-        "image": "https://likyacoffee.com/Likya-Turuncu-Logo.png",
-        "servesCuisine": "Coffee",
+        "image": "https://likyacoffee.com/HeroBackground.jpg",
+        "telephone": "+90 533 375 69 39",
+        "servesCuisine": ["Coffee", "Desserts"],
         "priceRange": "₺₺",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Kozyatağı Mah., Kocayol Caddesi No:21A",
+          "addressLocality": "Kadıköy",
+          "postalCode": "34742",
+          "addressRegion": "İstanbul",
+          "addressCountry": "TR"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 40.963044,
+          "longitude": 29.098220
+        },
+        "openingHoursSpecification": [
+          { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "08:00", "closes": "00:00" },
+          { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Saturday","Sunday"], "opens": "09:00", "closes": "00:00" }
+        ],
+        "hasMap": "https://maps.google.com/?q=Likya+Coffee",
+        "menu": "https://likyacoffee.com/LikyaMenu.pdf",
         "sameAs": [
           "https://www.instagram.com/likyacoffee/",
           "https://www.facebook.com/likyacoffee"
         ]
       }
-    </script>
+</script>
   </head>
   <body>
     <noscript>Bu uygulamayı çalıştırmak için JavaScript'i etkinleştirin.</noscript>

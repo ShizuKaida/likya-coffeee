@@ -1,6 +1,5 @@
 import { scrollToSection } from "../lib/scrollToSection";
 import logoPath from "../assets/Likya-Turuncu-Logo.png";
-import heroBackground from "../assets/HeroBackground.jpg";
 import heroBackground2 from "../assets/HeroBackground2.jpg";
 import heroBackgroundMobile from "../assets/Hero-Mobil.jpg";
 import { motion } from "framer-motion";
@@ -56,7 +55,7 @@ export default function Hero() {
         </motion.div>
 
         {/* Subtitle */}
-        <motion.p
+        <motion.h1
           style={{ textShadow: '0 1px 2px black' }}
           className="text-xl md:text-2xl text-white font-medium mb-8"
           data-testid="hero-subtitle"
@@ -64,8 +63,8 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.3, duration: 0.8 }}
         >
-          İstanbul Kozyatağı’nda seçkin origin çekirdeklerden kahveler ve enfes yiyecekler sunuyoruz.
-        </motion.p>
+        Likya Coffee - İstanbul Kozyatağı’nda seçkin origin çekirdeklerden kahveler ve enfes yiyecekler sunuyoruz.
+        </motion.h1>
 
         {/* CTA Buttons */}
         <motion.div 
