@@ -1,4 +1,4 @@
-import logoPath from "../assets/Likya-Yatay-Turuncu.png";
+import logoPath from "../assets/LikyaUzunLogo.png";
 
 export default function Footer() {
   return (
@@ -10,7 +10,7 @@ export default function Footer() {
             <img 
               src={logoPath} 
               alt="Likya Coffee Logo" 
-              className="h-12 w-100"
+              className="h-16 w-100"
               data-testid="footer-logo"
             />
           </div>
