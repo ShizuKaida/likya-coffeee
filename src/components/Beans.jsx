@@ -87,19 +87,12 @@ const beans = [
  {
   id: 5,
   name: "Türk Kahvesi Likya Harmanı",
-  fullName: "Brazil & Kenya Harman Türk Kahvesi",
+  fullName: "Brazil & Yemen Likya Harmanı Türk Kahvesi",
   image: turkKahveImg,
-  description: "Brezilya'nın yumuşak içimi ile Kenya'nın meyvemsi asiditesini harmanlayan özel bir tat.",
+  description: "Brezilya & Yemen Likya Special Harmanı",
   details: {
-   region: "Brezilya & Kenya",
-   altitude: "1200 - 1800 m",
-   process: "Doğal & Yıkanmış",
-   aroma: "Kuruyemiş ve meyve",
-   botanic: "Arabica",
-   body: "Düşük - Orta",
-   acidity: "Düşük - Orta",
-   notes: "Fındık, kakao, siyah üzüm",
-   extra: "Brezilya'nın dengeli tat profili ile Kenya'nın canlı meyvemsi tonlarının birleşimi, geleneksel Türk kahvesi keyfini modern bir dokunuşla sunar.",
+   region: "Brezilya & Yemen",
+   extra: "Brezilya’nın yumuşak içimi ile Yemen’in kendine has aromalarının uyumlu buluşu.",
   },
  }
 ]

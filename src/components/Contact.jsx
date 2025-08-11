@@ -37,7 +37,14 @@ export default function Contact() {
               {
                 icon: "fas fa-phone",
                 title: "Telefon",
-                content: <p>(0216) 266 80 99</p>,
+                content: (
+                  <a
+                    href="tel:+905333756939"
+                    className="text-gray-300 hover:text-likya-orange focus:outline-none focus:ring-2 focus:ring-likya-orange/40 rounded"
+                  >
+                    +90 533 375 69 39
+                  </a>
+                ),
               },
               {
                 icon: "fas fa-clock",
@@ -52,7 +59,7 @@ export default function Contact() {
               {
                 icon: "fas fa-envelope",
                 title: "Email",
-                content: <p>hello@likyacoffee.com</p>,
+                content: <p>kerim.mamak@gmail.com</p>,
               },
             ].map((item, index) => (
               <motion.div

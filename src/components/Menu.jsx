@@ -59,16 +59,22 @@ export default function Menu() {
              Menü
           </h2>
           <p className="text-lg text-gray-300 max-w-3xl mx-auto leading-relaxed">
-            <strong className="text-white">
+            <strong className="text-likya-orange">
               Kahvelerimizi sadece içmek değil, hissetmek için buradasınız.
             </strong>
             <br />
             Her fincan kahvemiz, dünyanın dört bir yanından özenle seçilen
             çekirdeklerle, baristalarımızın elinden çıkar.
             <br />
-            Misafirlerimizin deneyimi bizim için çok değerli—aşağıda bazı yorumları
-            görebilirsiniz. Detaylı menümüz için QR kodu tarayın veya linke
-            tıklayın.
+            Detaylı menümüz için QR kodu tarayın veya <a
+                href="/LikyaMenu.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-likya-orange hover:text-likya-orange/80 transition"
+              >
+                buraya
+              </a>{" "}
+             tıklayın.
           </p>
         </motion.div>
 

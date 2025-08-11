@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { scrollToSection } from "../lib/scrollToSection";
-import logoPath from "../assets/Likya-Yatay-Turuncu.png";
+import logoPath from "../assets/LikyaUzunLogo.png";
 
 export default function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -38,7 +38,7 @@ export default function Navbar() {
               <img
                 src={logoPath}
                 alt="Likya Coffee Logo"
-                className="h-10 w-100"
+                className="h-14 w-100block object-contain h-12 w-auto flex-none min-w-[140px] md:h-14 md:min-w-[165px] lg:h-16 lg:min-w-[190px]"
                 data-testid="logo-image"
               />
             </div>
