@@ -45,7 +45,7 @@ export default function Navbar() {
 
             {/* Desktop Navigation */}
             <div className="hidden md:flex items-center space-x-8">
-              {["home", "about", "beans", "brew", "menu", "gallery", "contact"].map((section) => (
+              {["home", "about","consulting", "beans", "brew", "menu", "gallery", "contact"].map((section) => (
                 <button
                   key={section}
                   onClick={() => handleNavClick(section)}
@@ -55,6 +55,7 @@ export default function Navbar() {
                   {{
                     home: "Anasayfa",
                     about: "Hakkımızda",
+                    consulting: "Danışmanlık",
                     beans: "Çekirdeklerimiz",
                     brew: "Demleme Teknikleri",
                     menu: "Menü",
@@ -84,7 +85,7 @@ export default function Navbar() {
   }`}
 >
   <div className="px-2 pt-2 pb-3 space-y-1">
-    {["home", "about", "beans","brew","menu", "gallery", "contact"].map((section) => (
+    {["home", "about","consulting", "beans","brew","menu", "gallery", "contact"].map((section) => (
       <button
         key={section}
         onClick={() => handleNavClick(section)}
@@ -94,6 +95,7 @@ export default function Navbar() {
         {{
           home: "Anasayfa",
           about: "Hakkımızda",
+          consulting: "Danışmanlık",
           beans: "Çekirdeklerimiz",
           brew: "Demleme Teknikleri",
           menu: "Menü",

@@ -7,6 +7,7 @@ import Gallery from './components/Gallery';
 import Menu from './components/Menu';
 import Bean from './components/Beans';
 import Brew  from './components/Brew';
+import Consulting from './components/Consulting';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Navbar />
       <Hero />
       <About />
+      <Consulting />
       <Bean />
       <Brew />
       <Menu />
