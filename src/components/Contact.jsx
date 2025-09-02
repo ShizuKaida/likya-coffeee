@@ -59,7 +59,7 @@ export default function Contact() {
               {
                 icon: "fas fa-envelope",
                 title: "Email",
-                content: <p>kerim.mamak@gmail.com</p>,
+                content: <p>likya@likyacoffee.com</p>,
               },
             ].map((item, index) => (
               <motion.div
