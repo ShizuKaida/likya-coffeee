@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import aboutImage from "../assets/LikyaBahce.jpg";
 import aboutImage2 from "../assets/LikyaDeniz.jpg"
 
 export default function About() {
