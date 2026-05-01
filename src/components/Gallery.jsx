@@ -56,7 +56,8 @@ export default function Gallery() {
   useEffect(() => {
     resetInterval(); // başlat
     return () => clearInterval(slideIntervalRef.current); // temizle
-  }, []);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [])
 
   return (
     <section id="gallery" className="py-20 bg-likya-dark">
