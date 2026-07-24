@@ -7,6 +7,7 @@ import Gallery from './components/Gallery';
 import Menu from './components/Menu';
 import Bean from './components/Beans';
 import Brew  from './components/Brew';
+import Signatures from './components/Signatures';
 import Consulting from './components/Consulting';
 
 
@@ -19,6 +20,7 @@ function App() {
       <Consulting />
       <Bean />
       <Brew />
+      <Signatures />
       <Menu />
       <Gallery />
       <Contact />
